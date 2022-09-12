@@ -1,3 +1,15 @@
+# Frums - Credits CLI ported to JS
+
+Port by Yellowsink for uwu.network.
+
+--- 
+
+Original program and animation (basically all the work!) by plaaosert.
+Music by Frums (Credits EX) https://soundcloud.com/frums/credits-ex
+Song fetched and played dynamically from soundcloud.
+
+## original readme below this header
+
 # credits_public
 - Public version of Frums - Credits animation repository.
 - Should be multiplatform. Feel free to raise an issue if it isn't. Feel free to raise an issue for anything.
