@@ -134,7 +134,7 @@ Funding made#### pos####si####ble#### by#### view####ers#### like#### you.###~
   Fu`
 ).repeat(2);
 
-export const funding_2 = splitWordTemplate(`Broad####cast####
+export const funding_1 = splitWordTemplate(`Broad####cast####
 Broadcast Cor####por##a####tion.~#####
 Cor####po##ra####tion.#####
 Cor####po##ra####tion.#####
@@ -241,5 +241,107 @@ ${fuckUpText(
                                        ???#
 ....#....#....#....#....#....#....#....#...#...#...#...#..#..
               <##C##O##N##N##E##C##T##I##O##N## ##L##O##S##T##>########################################################################################################################################################################################################################################################################################################################################################################################################################################"`);
+
+export const funding_2 =
+  splitWordTemplate(`--####--####-- ####-i####-a-####---- ####-up####-o-#
+-n####nu####-l ####fi####nan####cial ####sup####por#
+${"An####nu####al ####fi####nan####cial ####sup####por#\n".repeat(5)}An####nu###
+An####nu###
+`);
+
+export const fundingx2_0 = splitWordTemplate(`" By
+  ci
+    po
+      po
+  cor#
+    cor#
+        by#
+          by#
+rr#rr#rr#ro#oo#oo#aa#aa#aa#\n
+  wers#
+ ble#
+       b
+         b
+           F#
+         f
+       fi
+     i
+na#aa#aa#aa#aa#aa#aa#aa#
+ Fun
+Fun####ding#
+ Fu#
+  Fun#
+ fu#
+Fun####ding#
+ Fu#
+  Fun#
+ fu#
+Fun####ding#
+ Fu#
+  Fun#
+ fu#
+Fun####ding#
+F
+    Fi
+   Fin
+          Fina
+      Finan
+po
+po
+cor#
+by#
+  por
+Por#tio##
+Por#tio##
+Por#tion# nn#nn#nn
+b
+ b
+by###
+---- by###
+-------- by###
+------------ by###
+---------------- by#######
+>>#>>###
+By#
+  by#
+fi#nan#
+ b#
+  b#
+   nc#
+    nc#
+Corr#rr#rr#
+View####ers#### like#### you.#
+      like#### you.#
+    like## you.#
+Fun####ding###
+Fun####ding###
+  Fun###
+    Fu#
+Fun####ding###
+  fu#
+    fu#
+      fu#
+        fu#
+          fu#
+Cor####por####a####tion
+The#### cor####por####a####tion#### for#### pub####lic##
+ broad####cast####ing#### and#### bi####-an####nual#### fii#ii#i
+of#
+nan#
+for#
+fin####an####cial#### su#
+for#### fin####an####cial#### ass#ss#ss
+in#
+view####ers###
+you#####
+| ########This######## is######## P####B####S!############~
+`);
+
+export const fundingx2_1 =
+  splitWordTemplate(
+    [...Array(26).keys()].map((i) =>
+      `${workOutDate(64 * 3390 + i * 64)}#### Unknown###`.replace(".", ".####")
+    ).join("\n")
+  ) + "\n| ########This######## is######## P####B####S!############~\n";
 
 // TODO: funding_*, fdg_single_0, fdg_down_*
