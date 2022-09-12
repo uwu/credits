@@ -65,8 +65,9 @@ export const ocean_c_1 =
     100
   ) + fuckUpText("rrrrrrrrr\n", 900);
 
-export const ocean_c_2 = 
-    fuckUpText(`Here~ are~ the 7~~~~ P~~~~M~~~~ ob~ser~va~tions for~~ the
+export const ocean_c_2 =
+  fuckUpText(
+    `Here~ are~ the 7~~~~ P~~~~M~~~~ ob~ser~va~tions for~~ the
 ~~~Bos~ton~~ metro~po~li~tan~~~ ar~ea.
 
 ~~~~~~~~~~~~~~~At Logan~~~~ Airport,~~~~~~ it was clou~~~~dy.
@@ -75,11 +76,13 @@ export const ocean_c_2 =
 ~~~~~~and~ the~ re~la~tive~~ hu~mi~di~ty,~~~~ 4~~~~6~~~~ per~~cent.
 ~~~~~~~~~~~~~~~~The~ wind~ was~ south~~west~ at 1~~~~3~ miles~~~~ an~~~~ ho~ur.
 ~~~~~~~~~~~~The~ pres~~sure~~ was~~ 2~~~~9~~~~.~~~~~~~~9~~~~~~9~~~~~~ in~ches and ri~sing.
-~~~~~~~~Elsewher`, 200)
-    + fuckUpText("rrrrrrrrr\n", 1000);
+~~~~~~~~Elsewher`,
+    200
+  ) + fuckUpText("rrrrrrrrr\n", 1000);
 
-export const ocean_c_3 = 
-    fuckUpText(`Here~ are~ the 7~~~~ P~~~~M~~~~ ob~ser~va~tions for~~ the
+export const ocean_c_3 =
+  fuckUpText(
+    `Here~ are~ the 7~~~~ P~~~~M~~~~ ob~ser~va~tions for~~ the
 ~~~Bos~ton~~ metro~po~li~tan~~~ ar~ea.
 
 ~~~~~~~~~~~~~~~At Logan~~~~ Airport,~~~~~~ it was clou~~~~dy.
@@ -88,7 +91,155 @@ export const ocean_c_3 =
 ~~~~~~and~ the~ re~la~tive~~ hu~mi~di~ty,~~~~ 4~~~~6~~~~ per~~cent.
 ~~~~~~~~~~~~~~~~The~ wind~ was~ south~~west~ at 1~~~~3~ miles~~~~ an~~~~ ho~ur.
 ~~~~~~~~~~~~The~ pres~~sure~~ was~~ 2~~~~9~~~~.~~~~~~~~9~~~~~~9~~~~~~ in~ches and ri~sing.
-~~~~~~~~Elsewher`, 250)
-    + fuckUpText("rrrrrrrrr\n", 1000);
+~~~~~~~~Elsewher`,
+    250
+  ) + fuckUpText("rrrrrrrrr\n", 1000);
 
-// TODO: funding, fdg_single, fdg_down
+export const funding_0 = splitWordTemplate(
+  `Fun####ding#### for#### this#### pro####gram#### was#### made#### pos####si####ble###~
+  by###
+    by###
+      by###
+        by###
+          by#
+Fun#
+   by
+     by
+       by
+         by
+Funding#
+       by
+         by
+           by
+             by
+Funding for
+Funding for thi#i#i#i#i#
+Funding for this pro####gram###
+Funding for this pro####gram###
+                   pro
+                     pro
+                       pro
+Funding for this pro#gram.#~
+Fun####ding#### for#
+           by#
+             by#
+Funding made#### pos####si####ble#### by#### view####ers#### like#### you.###~
+####like#### you.##
+####like#### you.##
+####like#### you.##
+####like#### you.##
+####like#### you.##
+####like#### you.
+ Fu
+  Fu`
+).repeat(2);
+
+export const funding_2 = splitWordTemplate(`Broad####cast####
+Broadcast Cor####por##a####tion.~#####
+Cor####po##ra####tion.#####
+Cor####po##ra####tion.#####
+ Cor###po
+  Cor###po
+    Co
+      Co
+Cor####po##ra####tion.#####
+Cor####po##ra####tion.#####
+Cor####po##ra####tion.#####
+ Cor###po
+  Cor###po
+    Co
+      Co
+Cor####po##ra###tion.#
+ Co
+  Co
+Cor####po##ra###tion.#
+ Co
+  Co
+Cor####po##ra###tion.#
+ Co
+  Co
+Cor####po##ra###tion.#
+ Co
+  Co
+Cor####po##ra###tion.#
+ Co
+  Co
+Cor####po##ra###tion.#
+ Co
+  Co
+ Cor###po
+  Cor###po
+    Cor###po
+      Cor###po
+...#######
+ Cor###po#
+     cor##
+  cor###po#
+    cor###po#
+ cor##
+      cor###po#
+  cor###po#
+         cor##
+     cor###po#
+ cor##
+   cor##
+     cor##
+       co#
+     co#
+ cor###po#
+   cor##
+ cor###po#
+   cor###po#
+     cor##
+       cor##
+         cor###po#
+${fuckUpText(
+  ` cor###po#
+   cor#
+ cor###po#
+   cor#
+     cor#`,
+  100,
+  "# "
+)}
+ ...#
+ ${fuckUpText(
+   ` co#
+  co#
+ cor###po#
+   cor##
+     cor###po#
+   cor###po#
+            cor##
+      cor###po#`,
+   280,
+   "# "
+ )}${fuckUpText(
+  `             cor###po#
+    cor##
+                  cor###po#
+  cor#
+          cor#
+                    cor#`,
+  500,
+  "# "
+)}${fuckUpText(
+  ` co#
+                co#
+     cor###po#
+                        cor#
+  cor###po#
+           cor###po#
+             cor#
+  cor###po#`,
+  650,
+  "# "
+)} ???###p?#
+   ??r#
+           ???###??#
+                       co?#
+                                       ???#
+....#....#....#....#....#....#....#....#...#...#...#...#..#..
+              <##C##O##N##N##E##C##T##I##O##N## ##L##O##S##T##>########################################################################################################################################################################################################################################################################################################################################################################################################################################"`);
+
+// TODO: funding_*, fdg_single_0, fdg_down_*
