@@ -1,6 +1,5 @@
 // Contains strings used inside index.js
 // Kept here to reduce clutter
-// Just stored in a POJO
 // ported from string_defs.py
 
 import {
@@ -339,9 +338,120 @@ you#####
 
 export const fundingx2_1 =
   splitWordTemplate(
-    [...Array(26).keys()].map((i) =>
-      `${workOutDate(64 * 3390 + i * 64)}#### Unknown###`.replace(".", ".####")
-    ).join("\n")
+    [...Array(26).keys()]
+      .map((i) =>
+        `${workOutDate(64 * 3390 + i * 64)}#### Unknown###`.replace(
+          ".",
+          ".####"
+        )
+      )
+      .join("\n")
   ) + "\n| ########This######## is######## P####B####S!############~\n";
 
-// TODO: funding_*, fdg_single_0, fdg_down_*
+export const fundingx2_2 = splitWordTemplate(
+  `S#e#a#r#c#h#i#n#g# #f#o#r# #a#c#c#e#s##s## ##p##o##i##n##t
+########.########.########.########
+${"Searching for access point########.########.########.########\n".repeat(
+  11
+)}Found:################
+ P#B#S# #O#f#f#i#c#i#a#l# #1#1#.#### #R#e#s#t#a#r#t#i#n#g#.####.####.####`
+);
+
+export const fdg_single_0 = splitWordTemplate(
+  `########.########.########.########.########.########.########.#######
+########.########.########.########.########.########.########.#######
+########.########.########.########.########.########.########.#######
+########.########.########.########.########.########.########.#######
+########.########.########.########.########.########.########.#######
+########.########.########.########.########.########.########.#######
+Fun####ding#### for#### this#### pro####gram#### was#### made#### pos####sible#
+ 7 > > > by###
+ 7 > > > > by###
+ 8 > > > by###
+ 8 > > > > by###
+ 9 > > > by###
+Fun##
+     by
+       by
+         by
+           by
+Funding#
+     by
+       by
+         by
+           by
+for
+thi#i#i#i
+Pro####gram.#
+Pro####gram.#
+Pro
+  pro
+    pro
+      pro
+Pro####gram.###
+Fun####ding#### for####
+            by#
+              by#
+Funding for made#### pos####sible#### by#### view####ers#### like#### you.###
+like#### you.#####
+##like#### you.#####
+##like#### you.#####
+##like#### you.#####
+##like#### you.#####
+##like#### you.###
+Fu
+  Fu
+Fun####ding#### for#### this#### pro####gram#### was#### made#### pos####sible#### by#
+                                         by###
+                                       by###
+                                     by###
+                                   by#
+Fun###
+     by
+       by
+         by
+           by
+Funding#
+     by
+       by
+         by
+           by
+for
+thi#i#i#i
+Pro####gram.###
+Pro####gram.###
+Pro
+  pro
+    pro
+      pro
+Pro####gram.#
+Fun####ding#### for####
+            by#
+              by#
+Funding for made#### pos####sible#### by#### view####ers#### like#### you.###
+like#### you.#####
+##like#### you.#####
+##like#### you.#####
+##like#### you.#####
+##like#### you.#####
+####< RET 200################################################################
+`
+);
+
+export const fdg_down_0 = splitWordTemplate(
+  `Fun####ding#### for#### this#### pro####gram#### was#
+made#### made#### made#### made#### made#### made#### made#### made#### made###
+pos####sible#### by#### view####ers#### like#### you.#######`
+);
+
+export const fdg_down_1 = splitWordTemplate(
+  `---####----#### ---#### ----#### ---####----#### ---#
+----#### ----#### ----#### ----#### ----#### ----#### ----#### ----#### ----###
+---####-----#### --#### ----####---###### ----######## -##-##-##.#######`
+);
+
+export const fdg_down_2 = splitWordTemplate(
+  `Fun####ding#### for#### this#### pro####gram#### was#
+made#### made#### made#### made#### made#### made#### made#### made#### made###
+pos####sible#### by#### view####ers###### like######## y##o##u##.#######`
+);
