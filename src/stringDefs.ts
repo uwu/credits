@@ -6,7 +6,6 @@ import {
   splitWordTemplate,
   fuckUpText,
   workOutDate,
-  // @ts-expect-error this file isnt here yet
 } from "./animationFunctions.js";
 
 export const ocean_b_0 = `Now for the official national~ weather~ service~ forecast
